@@ -1,0 +1,206 @@
+
+
+
+
+
+
+
+
+nav > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    margin: -10px;
+   /* background-color: rgba(10, 3, 3,0.6);*/
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: transparent ;
+    transition: background-color 0.2s ease;
+}
+nav:hover{
+    /* background-color:rgb(82, 76, 76,0.6); */
+    background-color: hsl(0, 0%, 0%,0.6);
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.name {
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color: #C58940;
+    margin-left: -5px;
+}
+
+.aa input {
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+
+    outline: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.ww, .p2, .p3, .p4 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ww a, .p2 a, .p3 a, .p4 a {
+    text-decoration: none;
+    color:#C58940;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+
+}
+
+nav img {
+    width: 25px;
+    height: 25px;
+    mix-blend-mode: multiply;
+}
+.tit{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 20px;
+
+}
+ .add {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 20px;
+}
+
+.tit h1, .dd h1, .dad, .fi {
+    font-family: "Sekuya", sans-serif;
+    text-shadow: 5px 5px 5px red;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.contact-form, .add-container {
+    background-color: rgb(196, 221, 221);
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 450px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #333;
+}
+
+.form-group input, .add input {
+    padding: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px rgb(19, 206, 212);
+    outline: none;
+}
+
+.ta {
+    width: 100%;
+    overflow-x: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 95%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background-color: rgba(243, 243, 243, 0.05);
+}
+
+table td {
+    border: 1px solid rgb(103, 154, 189);
+    padding: 12px;
+    text-align: center;
+    color: white;
+}
+
+.im {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 50px 0;
+}
+
+.im img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+}
+
+.res {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    color: white;
+    text-shadow: 5px 5px 2px red;
+    margin: 30px 0;
+}
+
+@media (max-width: 850px) {
+    nav > div {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .aa input {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .tit, .add {
+        height: 50vh;
+        background-attachment: scroll;
+    }
+
+    .tit h1 {
+        font-size: 1.3rem;
+    }
+}
+.ss{
+    text-align: center;
+    text-decoration: solid 3px rgb(202, 34, 34);
+}
+table td a{
+    text-decoration: none;
+    color: #ffffff;
+}
