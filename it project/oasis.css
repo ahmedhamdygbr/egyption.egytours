@@ -396,8 +396,7 @@ p{
     }
     .images1, .images2, .images3 , .images4{
         display: flex;
-        flex-direction: column; 
-        align-items: flex-start;    
+        flex-direction: column;   
         justify-content: center;
         width: 100%;
         gap: 20px;
