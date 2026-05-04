@@ -533,6 +533,9 @@ audio{
         margin-right: 0;
         overflow:scroll;
     }
+  .body{
+    overflow:scroll;
+  }
 
     .table-container {
         width: 100%;
