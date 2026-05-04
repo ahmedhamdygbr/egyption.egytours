@@ -1,0 +1,634 @@
+@media (max-width: 1300px) {
+    #Pyramids .container h2 {
+        font-size: 40px;
+        font-weight: bolder;
+        margin: 45px 0px;
+    }
+
+
+    #Pyramids .container>.row {
+        flex-direction: column;
+        width: 220px;
+        /*margin:28px 60px;*/
+    }
+
+    #Pyramids .container>.row:nth-of-type(2),
+    #Pyramids .container>.row:nth-of-type(4) {
+        flex-direction: column-reverse;
+    }
+
+    #Pyramids .container>.row .image {
+        width: 220px;
+        height: 150px;    
+    }
+
+    #Pyramids .container>.row:nth-of-type(1) .image img,
+    #Pyramids .container>.row:nth-of-type(2) .image img,
+    #Pyramids .container>.row:nth-of-type(3) .image img,
+    #Pyramids .container>.row:nth-of-type(4) .image img,
+    #Pyramids .container>.row:nth-of-type(5) .image img {
+        width: 220px;
+        height: 150px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    #Pyramids .container>.row:nth-of-type(1) .inform,
+    #Pyramids .container>.row:nth-of-type(2) .inform,
+    #Pyramids .container>.row:nth-of-type(3) .inform,
+    #Pyramids .container>.row:nth-of-type(4) .inform,
+    #Pyramids .container>.row:nth-of-type(5) .inform {
+        border-radius: 0px 0px 20px 20px;
+        overflow-y: scroll;
+    }
+
+    #Pyramids .container>.row .inform {
+        padding: 20px 40px;
+        width: auto;
+    }
+
+    #Mountains .container h2 {
+        font-size: 40px;
+        font-weight: bolder;
+        margin: 45px 0px;
+    }
+
+
+    #Mountains .container>.row {
+        flex-direction: column;
+        width: 220px;
+    }
+
+    #Mountains .container>.row:nth-of-type(2),
+    #Mountains .container>.row:nth-of-type(4) {
+        flex-direction: column-reverse;
+    }
+
+    #Mountains .container>.row .image {
+        width: 220px;
+        height: 150px;
+        
+    }
+
+    #Mountains .container>.row:nth-of-type(1) .image img,
+    #Mountains .container>.row:nth-of-type(2) .image img,
+    #Mountains .container>.row:nth-of-type(3) .image img,
+    #Mountains .container>.row:nth-of-type(4) .image img,
+    #Mountains .container>.row:nth-of-type(5) .image img {
+        width: 220px;
+        height: 150px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    #Mountains .container>.row:nth-of-type(1) .inform,
+    #Mountains .container>.row:nth-of-type(2) .inform,
+    #Mountains .container>.row:nth-of-type(3) .inform,
+    #Mountains .container>.row:nth-of-type(4) .inform,
+    #Mountains .container>.row:nth-of-type(5) .inform {
+        border-radius: 0px 0px 20px 20px;
+        overflow-y: scroll;
+    }
+
+    #Mountains .container>.row .inform {
+        padding: 20px 40px;
+        width: auto;
+    }
+
+    #Contact .row {
+        width: 100%;
+    }
+
+    #Contact .row .part1 {
+        padding-right: 100px;
+    }
+
+    #Contact .row .part3 {
+        padding-left: 100px;
+    }
+
+    #Contact h2 {
+        margin-bottom: 15px;
+    }
+
+    #Contact .row .input {
+        width: 100%;
+    }
+
+    #Contact form button {
+        margin-left: 90px;
+    }
+
+    footer .footer p {
+        padding: 0px 10px;
+        margin: 20px;
+    }
+
+    footer .footer .socialMedia {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    #Pyramids .container>.row{
+        height: 450px;
+        width: 270px;
+    }
+
+    #Pyramids .container>.row .image {
+        width: 270px;
+        height: 210px;
+    }
+
+    #Pyramids .container>.row:nth-of-type(1) .image img,
+    #Pyramids .container>.row:nth-of-type(2) .image img,
+    #Pyramids .container>.row:nth-of-type(3) .image img,
+    #Pyramids .container>.row:nth-of-type(4) .image img,
+    #Pyramids .container>.row:nth-of-type(5) .image img {
+        width: 270px;
+        height: 220px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    #Pyramids .container>.row:nth-of-type(1) .inform,
+    #Pyramids .container>.row:nth-of-type(2) .inform,
+    #Pyramids .container>.row:nth-of-type(3) .inform,
+    #Pyramids .container>.row:nth-of-type(4) .inform,
+    #Pyramids .container>.row:nth-of-type(5) .inform {
+        border-radius: 0px 0px 20px 20px;
+        overflow-y: scroll;
+    }
+
+    #Pyramids .container>.row .inform {
+        padding: 20px 40px;
+        width: auto;
+    }
+
+    #Mountains .container>.row{
+        height: 450px;
+        width: 270px;
+    }
+
+    #Mountains .container>.row .image {
+        width: 270px;
+        height: 210px;
+    }
+
+    #Mountains .container>.row:nth-of-type(1) .image img,
+    #Mountains .container>.row:nth-of-type(2) .image img,
+    #Mountains .container>.row:nth-of-type(3) .image img,
+    #Mountains .container>.row:nth-of-type(4) .image img,
+    #Mountains .container>.row:nth-of-type(5) .image img {
+        width: 270px;
+        height: 220px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    #Mountains .container>.row:nth-of-type(1) .inform,
+    #Mountains .container>.row:nth-of-type(2) .inform,
+    #Mountains .container>.row:nth-of-type(3) .inform,
+    #Mountains .container>.row:nth-of-type(4) .inform,
+    #Mountains .container>.row:nth-of-type(5) .inform {
+        border-radius: 0px 0px 20px 20px;
+        overflow-y: scroll;
+    }
+
+    #Mountains .container>.row .inform {
+        padding: 20px 40px;
+        width: auto;
+    }
+
+    #Contact .row {
+        width: 100%;
+    }
+
+    #Contact .row .part1 {
+        padding-right: 100px;
+    }
+
+    #Contact .row .part3 {
+        padding-left: 100px;
+    }
+
+    #Contact h2 {
+        margin-bottom: 15px;
+    }
+
+    #Contact .row .input {
+        width: 100%;
+    }
+
+    footer .footer p {
+        padding: 0px 10px;
+        margin: 20px;
+    }
+
+    footer .footer .socialMedia {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    #Pyramids .container>.row {
+        height: 200px;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #Pyramids .container>.row:nth-of-type(2),
+    #Pyramids .container>.row:nth-of-type(4) {
+        flex-direction: row;
+    }
+
+    #Pyramids .container>.row .image {
+        width: 270px;
+        height: 200px;
+    }
+
+    #Pyramids .container>.row:nth-of-type(1) .image img,
+    #Pyramids .container>.row:nth-of-type(3) .image img,
+    #Pyramids .container>.row:nth-of-type(5) .image img {
+        width: 270px;
+        height: 200px;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    #Pyramids .container>.row:nth-of-type(2) .image img,
+    #Pyramids .container>.row:nth-of-type(4) .image img {
+        width: 270px;
+        height: 200px;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    #Pyramids .container>.row:nth-of-type(1) .inform,
+    #Pyramids .container>.row:nth-of-type(3) .inform,
+    #Pyramids .container>.row:nth-of-type(5) .inform {
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    #Pyramids .container>.row:nth-of-type(2) .inform,
+    #Pyramids .container>.row:nth-of-type(4) .inform {
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    #Pyramids .container>.row .inform {
+        width: auto;
+        height: 200px;
+        overflow-y: scroll;
+    }
+
+    #Pyramids .container>.row .inform h4 {
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    #Mountains .container>.row {
+        height: 200px;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #Mountains .container>.row:nth-of-type(2),
+    #Mountains .container>.row:nth-of-type(4) {
+        flex-direction: row;
+    }
+
+    #Mountains .container>.row .image {
+        width: 270px;
+        height: 200px;
+    }
+
+    #Mountains .container>.row:nth-of-type(1) .image img,
+    #Mountains .container>.row:nth-of-type(3) .image img,
+    #Mountains .container>.row:nth-of-type(5) .image img {
+        width: 270px;
+        height: 200px;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    #Mountains .container>.row:nth-of-type(2) .image img,
+    #Mountains .container>.row:nth-of-type(4) .image img {
+        width: 270px;
+        height: 200px;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    #Mountains .container>.row:nth-of-type(1) .inform,
+    #Mountains .container>.row:nth-of-type(3) .inform,
+    #Mountains .container>.row:nth-of-type(5) .inform {
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    #Mountains .container>.row:nth-of-type(2) .inform,
+    #Mountains .container>.row:nth-of-type(4) .inform {
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    #Mountains .container>.row .inform {
+        width: auto;
+        height: 200px;
+        overflow-y: scroll;
+    }
+
+    #Mountains .container>.row .inform h4 {
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    #Contact h2 {
+        font-size: 40px;
+        font-weight: bolder;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    #Contact .row .input {
+        width: 33.33%;
+    }
+
+    #Contact .row .part1,
+    #Contact .row .part2,
+    #Contact .row .part3 {
+        margin: 0px 18px;
+        margin-top: 30px;
+        width: 180px;
+    }
+
+    #Contact .row .part1 i,
+    #Contact .row .part2 i,
+    #Contact .row .part3 i {
+        width: 50px;
+        height: 50px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    footer .footer p {
+        margin: 30px 0px;
+        font-size: 18px;
+    }
+
+    footer .footer .socialMedia {
+        margin: 20px 0px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    #Pyramids .container h2 {
+        font-size: 50px;
+        font-weight: bolder;
+    }
+
+    #Pyramids .container>.row {
+        height: 400px;
+        width: auto;
+    }
+
+    #Pyramids .container>.row:nth-of-type(3),
+    #Pyramids .container>.row:nth-of-type(4) {
+        height: 420px;
+        width: auto;
+    }
+
+    #Pyramids .container>.row .image {
+        width: 350px;
+    }
+
+    #Pyramids .container>.row:nth-of-type(1) .image img,
+    #Pyramids .container>.row:nth-of-type(2) .image img,
+    #Pyramids .container>.row:nth-of-type(5) .image img {
+        width: 350px;
+        height: 400px;
+    }
+
+    #Pyramids .container>.row:nth-of-type(3) .image img,
+    #Pyramids .container>.row:nth-of-type(4) .image img {
+        width: 350px;
+        height: 420px;
+    }
+
+    #Pyramids .container>.row .inform {
+        width: auto;
+        height: 400px;
+        overflow-y: scroll;
+    }
+
+    #Pyramids .container>.row:nth-of-type(3) .inform,
+    #Pyramids .container>.row:nth-of-type(4) .inform {
+        height: 420px;
+        width: auto;
+    }
+
+    #Pyramids .container>.row .inform h4 {
+        font-weight: 600;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    #Pyramids .container>.row .inform p {
+        letter-spacing: 2px;
+        line-height: 27px;
+        font-size: 15px;
+    }
+
+    #Mountains .container h2 {
+        font-size: 50px;
+        font-weight: bolder;
+    }
+
+    #Mountains .container>.row {
+        height: 400px;
+        width: auto;
+    }
+
+    #Mountains .container>.row:nth-of-type(3),
+    #Mountains .container>.row:nth-of-type(4) {
+        height: 420px;
+        width: auto;
+    }
+
+    #Mountains .container>.row .image {
+        width: 350px;
+    }
+
+    #Mountains .container>.row:nth-of-type(1) .image img,
+    #Mountains .container>.row:nth-of-type(2) .image img,
+    #Mountains .container>.row:nth-of-type(5) .image img {
+        width: 350px;
+        height: 400px;
+    }
+
+    #Mountains .container>.row:nth-of-type(3) .image img,
+    #Mountains .container>.row:nth-of-type(4) .image img {
+        width: 350px;
+        height: 420px;
+    }
+
+    #Mountains .container>.row .inform {
+        width: auto;
+        height: 400px;
+        overflow-y: scroll;
+    }
+
+    #Mountains .container>.row:nth-of-type(3) .inform,
+    #Mountains .container>.row:nth-of-type(4) .inform {
+        height: 420px;
+        width: auto;
+    }
+
+    #Mountains .container>.row .inform h4 {
+        font-weight: 600;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    #Mountains .container>.row .inform p {
+        letter-spacing: 2px;
+        line-height: 27px;
+        font-size: 15px;
+    }
+
+    #Contact h2 {
+        font-size: 40px;
+        font-weight: bolder;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    #Contact .row .part1,
+    #Contact .row .part2,
+    #Contact .row .part3 {
+        margin: 0px 30px;
+        margin-top: 30px;
+    }
+
+    footer .footer p {
+        margin: 30px 0px;
+        font-size: 18px;
+    }
+
+    footer .footer .socialMedia {
+        margin: 20px 0px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+    #Pyramids .container h2 {
+        font-size: 55px;
+        font-weight: bolder;
+    }
+
+    #Pyramids .container>.row {
+        height: 400px;
+        width: auto;
+    }
+
+    #Pyramids .container>.row:nth-of-type(3),
+    #Pyramids .container>.row:nth-of-type(4) {
+        height: 420px;
+        width: auto;
+    }
+
+    #Pyramids .container>.row .image {
+        width: 450px;
+        height: auto;
+    }
+
+    #Pyramids .container>.row:nth-of-type(1) .image img,
+    #Pyramids .container>.row:nth-of-type(2) .image img,
+    #Pyramids .container>.row:nth-of-type(5) .image img {
+        width: 450px;
+        height: 400px;
+    }
+
+    #Pyramids .container>.row:nth-of-type(3) .image img,
+    #Pyramids .container>.row:nth-of-type(4) .image img {
+        width: 450px;
+        height: 420px;
+    }
+
+    #Pyramids .container>.row .inform {
+        height: 400px;
+        width: auto;
+        overflow: scroll;
+    }
+
+    #Pyramids .container>.row:nth-of-type(3) .inform,
+    #Pyramids .container>.row:nth-of-type(4) .inform {
+        height: 420px;
+        width: auto;
+    }
+
+    #Mountains .container h2 {
+        font-size: 55px;
+        font-weight: bolder;
+    }
+
+    #Mountains .container>.row {
+        height: 400px;
+        width: auto;
+    }
+
+    #Mountains .container>.row:nth-of-type(3),
+    #Mountains .container>.row:nth-of-type(4) {
+        height: 420px;
+        width: auto;
+    }
+
+    #Mountains .container>.row .image {
+        width: 450px;
+        height: auto;
+    }
+
+    #Mountains .container>.row:nth-of-type(1) .image img,
+    #Mountains .container>.row:nth-of-type(2) .image img,
+    #Mountains .container>.row:nth-of-type(5) .image img {
+        height: 400px;
+        width: 450px;
+    }
+
+    #Mountains .container>.row:nth-of-type(3) .image img,
+    #Mountains .container>.row:nth-of-type(4) .image img {
+        height: 420px;
+        width: 450px;
+    }
+
+    #Mountains .container>.row .inform {
+        height: 400px;
+        width: auto;
+    }
+
+    #Mountains .container>.row:nth-of-type(3) .inform,
+    #Mountains .container>.row:nth-of-type(4) .inform {
+        height: 420px;
+        width: auto;
+    }
+
+    #Contact h2 {
+        font-size: 40px;
+        font-weight: bolder;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    #Contact .row .part1,
+    #Contact .row .part2,
+    #Contact .row .part3 {
+        margin: 0px 50px;
+        margin-top: 30px;
+    }
+
+    footer .footer p {
+        margin: 30px 0px;
+        font-size: 18px;
+    }
+
+    footer .footer .socialMedia {
+        margin: 20px 0px;
+    }
+}
