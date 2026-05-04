@@ -1,0 +1,289 @@
+@media (max-width: 1300px){
+
+    #Castles {
+        overflow: hidden;
+    }
+
+    #Castles h2 {
+        margin-bottom: 0px;
+        font-size: 30px;
+    }
+
+
+
+    #Castles .container .firstTowCards,
+    #Castles .container .secondTowCards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 17%;
+        width: 100%;
+    }
+
+    
+
+
+    #Castles .cards h3,
+     #Castles .cards h4 {
+        font-size: 10px;
+        margin: 0px;
+    }
+
+
+
+    #Castles .container .firstTowCards .cards,
+    #Castles .container .secondTowCards .cards {
+        width: 90%;
+        margin: 23px;
+    }
+
+
+
+
+    .popup .content {
+        position: relative;
+        background-color: #a15b0f;
+        width: 90%;
+        height: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        transform: translateY(-100%);
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+    .popup .content .image img {
+        border-radius: 10px 10px 0px 0px;
+    }    
+
+    .popup .content .image,
+    .popup .content .content-inner {
+        width: 100%;
+        height: 50%;
+    }
+
+
+
+    .popup .content .exit i {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 15px;
+        cursor: pointer;
+        transition-duration: .3s;
+    }
+
+
+
+    .popup .content .info h4 {
+        font-size: 15px;
+        margin: 40px 0px 15px;
+    }
+
+
+.popup .content .info h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+    .popup .content .info p {
+        margin-bottom: 20px;
+        padding-right: 12px;
+    }
+
+    .popup .content-inner {
+        overflow: auto;
+    }
+
+}
+
+
+@media (min-width: 371px) and (max-width: 1300px){
+    #Castles .container .firstTowCards,
+    #Castles .container .secondTowCards {
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        height: 20%;
+        width: 100%;
+    }
+
+    #Castles .container .firstTowCards .cards,
+    #Castles .container .secondTowCards .cards {
+        margin: 12px;
+    }
+
+}
+
+
+@media (min-width: 577px) and (max-width: 1300px){
+
+
+    #Castles h2 {
+        font-size: 35px;
+    }
+
+    #Castles .container {
+        flex-wrap: nowrap;
+    }
+
+    #Castles .container .firstTowCards,
+    #Castles .container .secondTowCards {
+        display: flex;
+        justify-content: space-around;
+        height: 37%;    /* تغيير غريب */
+        width: 100%; 
+    }
+
+
+    #Castles .container .firstTowCards .cards,
+    #Castles .container .secondTowCards .cards {
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        border-radius: 8px;
+        margin-bottom: 50px;
+        position: relative;
+        transition-duration: .3s;
+    }
+
+
+    #Castles .cards h3,
+     #Castles .cards h4 {
+        font-size: 20px;
+        margin: 8px;
+    }
+
+
+
+
+    .popup .content .exit i {
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+    }
+
+
+    .popup .content {
+    position: relative;
+    background-color: #a15b0f;
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1300px){
+
+
+
+
+    #Castles h2 {
+        font-size: 40px;
+    }
+
+
+
+    #Castles .container {
+        flex-wrap: nowrap;
+    }
+
+    #Castles .container .firstTowCards,
+    #Castles .container .secondTowCards {
+        display: flex;
+        justify-content: space-around;
+        height: 38%;    /* تغيير غريب */
+        width: 100%; 
+    }
+
+
+    #Castles .container .firstTowCards .cards,
+    #Castles .container .secondTowCards .cards {
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        border-radius: 8px;
+        margin-bottom: 50px;
+        position: relative;
+        transition-duration: .3s;
+    }
+
+
+    #Castles .cards h3,
+     #Castles .cards h4 {
+        font-size: 20px;
+        margin: 8px;
+    }
+
+
+
+    .popup .content .image,
+    .popup .content .content-inner {
+        width: 50%;
+        height: 100%;
+    }
+
+
+
+    .popup .content .exit i {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 25px;
+        cursor: pointer;
+        transition-duration: .3s;
+    }
+
+    .popup .content .image img {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1300px){
+    #Castles .cards h3 {
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    #Castles .cards h4 {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+
+    .popup .content .info h4 {
+        font-size: 20px;
+        margin: 40px 0px 15px;
+    }
+
+
+    .popup .content .info h3 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    .popup .content .info p {
+        margin-bottom: 20px;
+    }
+
+
+
+}
+
+
+@media (min-width: 1181px) and (max-width: 1300px){}
