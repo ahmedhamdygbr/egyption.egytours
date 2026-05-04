@@ -435,6 +435,9 @@ animation: abo 1s linear forwards;
 
   }
 }
+@media (max-width:850){
+  #mon{margin-left:0px;}
+}
 
 /*#f3d8b7*/
 .table{
