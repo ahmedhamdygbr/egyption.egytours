@@ -289,22 +289,17 @@ div{
 }
 
 
-
-
-
-/* تنسيق الـ navbar الأساسي (تأكد إنه موجود عندك) */
 .navbar {
     list-style: none;
     display: flex;
     padding: 0;
 }
 
-/* العنصر الأب */
 .button-container {
     position: relative; 
 }
 
-/* زرار Destination */
+
 .button {
     color:#C58940;
     text-decoration: none;
@@ -312,36 +307,36 @@ div{
     text-transform: capitalize;
 }
 
-/* القائمة اللي هتظهر (مخفية في البداية) */
+
 .button-list {
     display: none; 
     position: absolute;
     z-index: 1000;
-    top: 100%; /* تظهر تحت الزرار بالظبط */
+    top: 100%; 
     left: 0;
-    background-color: rgba(0, 0, 0, 0.9); /* أسود شفاف شوية زي الفيديو */
+    background-color: rgba(0, 0, 0, 0.9); 
     min-width: 200px;
     list-style: none;
     padding: 0;
     margin: 0;
-    border-top: 2px solid yellow; /* خط جمالي بسيط */
+    border-top: 2px solid yellow; 
 }
 
-/* تنسيق اللينكات جوه القائمة */
+
 .button-list li a {
-    color: rgb(236, 236, 222); /* اللون الأصفر اللي في الفيديو */
+    color: rgb(236, 236, 222); 
     padding: 12px 20px;
     text-decoration: none;
     display: block;
-    border-bottom: 1px solid #444; /* خطوط فاصلة */
+    border-bottom: 1px solid #444; 
 }
 
-/* تأثير عند الوقوف على اختيار جوه القائمة */
+
 .button-list li a:hover {
     background-color: #222;
 }
 
-/* السحر: لما تقف بالماوس على الـ container القائمة تظهر */
+
 .button-container:hover .button-list {
     display: block;
 }
@@ -531,11 +526,12 @@ audio{
     background: #f1f1f1;
 }
 @media screen and (max-width: 480px) {
-    /* إلغاء أي هوامش جانبية كانت زاقة الجدول */
+    
     .table {
         width: 100%;
         margin-left: 0;
         margin-right: 0;
+        overflow:scroll;
     }
 
     .table-container {
@@ -558,11 +554,11 @@ audio{
         text-align: center;
     }
 
-    /* التحكم في عرض الأعمدة عشان الجدول ميبقاش حتة واسعة وحتة ضيقة */
-    .tourist-table th:nth-child(1), .tourist-table td:nth-child(1) { width: 30%; } /* Location */
-    .tourist-table th:nth-child(2), .tourist-table td:nth-child(2) { width: 25%; } /* Category */
-    .tourist-table th:nth-child(3), .tourist-table td:nth-child(3) { width: 25%; } /* Hours */
-    .tourist-table th:nth-child(4), .tourist-table td:nth-child(4) { width: 20%; } /* Map */
+    
+    .tourist-table th:nth-child(1), .tourist-table td:nth-child(1) { width: 30%; } 
+    .tourist-table th:nth-child(2), .tourist-table td:nth-child(2) { width: 25%; } 
+    .tourist-table th:nth-child(3), .tourist-table td:nth-child(3) { width: 25%; } 
+    .tourist-table th:nth-child(4), .tourist-table td:nth-child(4) { width: 20%; } 
 
     
     .tourist-table i {
