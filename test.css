@@ -16,10 +16,10 @@ body{
   width: auto;
   height: auto;
   overflow-x: hidden;
-  z-index: -100; /* عشان يكون ورا كل العناصر */
+  z-index: -100; 
   transform: translate(-50%, -50%);
-  object-fit: cover; /* عشان الفيديو ما يتمطش ويحافظ على أبعاده */
-  filter: brightness(0.6); /* اختياري: بيخلي الفيديو أغمق شوية عشان الكلام اللي فوقه يبان */
+  object-fit: cover; 
+  filter: brightness(0.6); 
 }
 
 
