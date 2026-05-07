@@ -10,11 +10,11 @@ function sc(btn , direction) {
 
 const tdark = document.getElementById("tdark");
 let dark = localStorage.getItem("dark");
-const yesdark = () => {
+const yesdark = functio() {
     document.body.classList.add("dark");
     localStorage.setItem("dark", "active");
 }
-const nodark = () => {
+const nodark = function() {
     document.body.classList.remove("dark");
     localStorage.setItem("dark", null);
 }
@@ -24,7 +24,7 @@ if (dark !== "active") {
 else {
     yesdark();
 }
-tdark.addEventListener("click", () => {
+tdark.addEventListener("click", function() {
     dark = localStorage.getItem("dark");
     if (dark !== "active") {
         yesdark();
