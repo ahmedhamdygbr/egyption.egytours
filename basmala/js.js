@@ -10,11 +10,11 @@ function sc(btn , direction) {
 
 const tdark = document.getElementById("tdark");
 let dark = localStorage.getItem("dark");
-const yesdark = functio() {
+const yesdark = function () {
     document.body.classList.add("dark");
     localStorage.setItem("dark", "active");
 }
-const nodark = function() {
+const nodark = function () {
     document.body.classList.remove("dark");
     localStorage.setItem("dark", null);
 }
